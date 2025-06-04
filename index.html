@@ -14,7 +14,8 @@
         <br>
         <label for="Nombre del usuario"> Nombre:</label>
         <br>
-        <input type="text" name="Nombre" id="Nombre">
+        <input type="text" name="Nombre" id="Nombre" placeholder="Nombre completo" autocomplete="off"
+        required="Nombre">
         <br>
         <label for="Apellido"> Apellido:</label>
         <br>
@@ -62,9 +63,76 @@
         <br>
         <label for="Fechayhora">Correo:</label>
         <br>
-        <input type="email" name="email" id="email">
+        <input type="datetime" name="datetime" id="datetime">
+        <br>
+        <label for="Mes">Mes:</label>
+        <br>
+        <input type="month" name="month" id="month">
+        <br>
+        <label for="Semana">Semana:</label>
+        <br>
+        <input type="week" name="week" id="week">
+        <br>
+        <label for="Radio button">Radio:</label>
+        <br>
+        <input type="radio" name="radio" id="radio">
+        <br>
+        <label for="checkbox">checkbox:</label>
+        <br>
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <br>
+        <label for="Color">Selecciona un color:</label>
+        <br>
+        <input type="color" name="color" id="color">
+        <br>
+        <label for="Select-option">Seleccione una opción</label>
+        <select name="Select-option" id="Select-option">
+            <option value="1">Lápiz</option>
+            <option value="2">Color</option>
+            <option value="3">Pluma</option>
 
+        </select>
+        <br>
+        <select multiple>
+            <option value="">Lapiz</option>
+            <option value="">Color</option>
+            <option value="">Pluma</option>
+            <option value="">Cuaderno</option>
+        </select>
+        <br>
+        <label for="">datalis</label>
+        <input type="text" list="items">
+        <datalist id="items">
+            <option value="1">Lapiz</option>
+            <option value="2">Color</option>
+            <option value="3">Pluma</option>
+            <option value="4">Cuaderno</option>
+
+        </datalist>
+        
 
     </form>
+
+    <br>
+    <br>
+    <form action="avanzado.html"></form>
+    <label for="">Selecciona una archio</label>
+    <input type="file" name="foto" id="foto">
+    <br><br><br>
+    <progress max="100" value="50"></progress>
+    <br>
+    <br>
+    <br>
+    <label for="">Envio de datos</label>
+    <input type="submit" value="Boton">
+    <br>
+    <br>
+    <br>
+    <label for="">Borar datos</label>
+    <input type="reset" value="limpiar">
+    <br>
+    <br>
+    <label for="">Boton sin uso</label>
+    <input type="button">
 </body>
-</html>
+</html

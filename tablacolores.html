@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabla</title>
+    <style>
+        table{
+            margin: auto;
+            margin-top: 50px;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+            border: 3px solid #dee6de;
+            border-collapse: collapse;
+        }
+        table th, table tr{
+            border: 3px solid #dee6de;
+            padding: 5px 10px;
+        }
+        table th,
+        table td:first-child{
+            background-color: #17a2b8;
+            color: white;
+            width: 100px;
+            font-weight: 400;
+
+        }
+table td span{
+    margin-right: 15px;
+    font-style: 17px;
+    cursor: pointer;
+}
+        table td span:nth-child(1){
+            color: #17a2b8;
+        }
+        table td span:nth-child(2){
+            color: #ce1710;
+        }
+         table td span:nth-child(3){
+            color: #1ec907;
+        }
+        table tr:nth-child(odd){
+            background-color: rgba(0, 0, 0, 0.05)
+        }
+
+        table tr:hover{
+            background-color: rgba(0, 0, 0, 0.15)
+        }
+    </style>
+    <link rel="stylesheet" href="fontawesome-free-6.7.2-web/fontawesome-free-6.7.2-web/css/all.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Correo</th>
+                <th>Opciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>123456</td>
+                <td>Edgar</td>
+                <td>Hernández</td>
+                <td>al45587un.edu.mx</td>
+                <td> 
+                    <span class="fas fa-info-circle"></span>
+                    <span class="fas fa-edit"></span>
+                    <span class="fas fa-trash-alt"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>123456</td>
+                <td>Edgar</td>
+                <td>Hernández</td>
+                <td>al45587un.edu.mx</td>
+                <td>
+                    <span class="fas fa-info-circle"></span>
+                    <span class="fas fa-edit"></span>
+                    <span class="fas fa-trash-alt"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>123456</td>
+                <td>Edgar</td>
+                <td>Hernández</td>
+                <td>al45587un.edu.mx</td>
+                <td>
+                    <span class="fas fa-info-circle"></span>
+                    <span class="fas fa-edit"></span>
+                    <span class="fas fa-trash-alt"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>123456</td>
+                <td>Edgar</td>
+                <td>Hernández</td>
+                <td>al45587un.edu.mx</td>
+                <td>
+                    <span class="fas fa-info-circle"></span>
+                    <span class="fas fa-edit"></span>
+                    <span class="fas fa-trash-alt"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>123456</td>
+                <td>Edgar</td>
+                <td>Hernández</td>
+                <td>al45587un.edu.mx</td>
+                <td>
+                    <span class="fas fa-info-circle"></span>
+                    <span class="fas fa-edit"></span>
+                    <span class="fas fa-trash-alt"></span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
